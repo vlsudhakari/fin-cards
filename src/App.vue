@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <DeskCardsPage msg="Welcome to Your Desktop App" />
+    <MobileCardPage msg="Welcome to Your Mobile App" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import DeskCardsPage from "./route-components/DeskCardsPage.vue";
+import MobileCardPage from "./route-components/MobileCardPage.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    DeskCardsPage,
+    MobileCardPage,
   },
 };
 </script>
